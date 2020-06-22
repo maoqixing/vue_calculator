@@ -21,7 +21,7 @@ export default new Vuex.Store({
 				commit('INCREMENT')//转同步
 			},
 			decrement({commit}){
-				commit('INCREMENT')//转同步
+				commit('DECREMENT')//转同步
 			}
   },
   modules: {
