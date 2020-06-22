@@ -27,12 +27,20 @@
 			
 			// 第二种方法
 		
-			increment(){
-				this.$store.commit('INCREMENT')
-			},
-			decrement(){
-				this.$store.commit('DECREMENT')
-			},
+			// increment(){
+			// 	this.$store.commit('INCREMENT')
+			// },
+			// decrement(){
+			// 	this.$store.commit('DECREMENT')
+			// },
+			
+				// 第三种方法
+				 increment(){
+				 	this.$store.dispatch('increment')
+				},
+				decrement(){
+					this.$store.dispatch('decrement')
+				},
 		}
 	}
 </script>
